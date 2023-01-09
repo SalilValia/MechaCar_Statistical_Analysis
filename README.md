@@ -9,7 +9,7 @@
 In part 1, we first install the tidyverse packege to perform the analysis. 
 Then read the csv file of Mechacar_mpg file and created a dataframe for it. 
 
-![image](https://user-images.githubusercontent.com/111409181/211227282-02e9c1c5-c53a-43cf-9395-04536f313402.png)
+![image](https://user-images.githubusercontent.com/111409181/211281140-ce12efd4-72f7-425e-afed-e651b121079a.png)
 
 In the summary output it shows the Pr(>|t|). Which is the value that respresents the coefficients contirbuting to a random variance amount to the linear models. Here it shows that vehicle length, and ground clearance and intercepts provides and non-random amoutn of variance to the linear model to the mpg.
 From the result of the summary of the linear regression model it shows.
