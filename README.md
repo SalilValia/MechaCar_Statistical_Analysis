@@ -20,3 +20,46 @@ This resulted that the linear slope was not to be or considered 0. R square ende
 
 
 ![image](https://user-images.githubusercontent.com/111409181/211246139-c51761d5-cf77-41ca-adef-731cb0836798.png)
+
+This image was the total summary of the all the lots 
+
+![image](https://user-images.githubusercontent.com/111409181/211247595-d1827eac-0a30-40da-8402-e6cb79ffba30.png)
+
+this image was the total summary broken down per lot. 
+
+These designs for the MechaCar suspension coils indicates that the variance of the suspension coils should not exceed more than 100 pounds per square inch. 
+These specs are are used for all manufacturing lots in total with a variance of 62.3 psi. Then betweem each lots, Lots 1 and 2 had variances of .98(lot 1) and 7.5 (lot 2). Lot 3 had a high variance of 170.3 psi.
+
+## T-Tests on Suspension Coils
+
+![image](https://user-images.githubusercontent.com/111409181/211257976-6a948c92-f805-4bf4-bd7c-251585283744.png)
+
+This was the T-test for all manufacturing lots against the population mean. I will assume that our significance level is at 0.05 percent. Our p-value ended up being 0.060 which is slightly above the assumed significance level. With this result, we do not have enough evidence to reject the hypothesis. So the PSI in all manufacturing lots is similar to the population mean of 1498.78 psi.
+
+Lot 1 and Lot 2
+
+
+![image](https://user-images.githubusercontent.com/111409181/211263168-8ca83bce-30b7-4447-b14e-5335ab203eb8.png)
+
+
+![image](https://user-images.githubusercontent.com/111409181/211263823-a20e21d7-da5f-49b6-8046-a91643c78e68.png)
+
+
+For Lot 1 our p-value ended up being 1 while lot 2 had a p-value of 0.61.
+their manufacturing PSI was similar to the population mean at 1500 (Lot 1) and 1500.2(Lot 2). 
+Since both were above the assumed signigicance level we can say that Lot 1 and lot 2 can be rejected. 
+
+Lot 3
+
+![image](https://user-images.githubusercontent.com/111409181/211275484-901c9617-fb4b-47d3-809b-bcda4629c928.png)
+
+
+
+
+
+
+
+
+
+
+
