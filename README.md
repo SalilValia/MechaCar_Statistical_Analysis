@@ -34,7 +34,7 @@ These specs are are used for all manufacturing lots in total with a variance of 
 
 ![image](https://user-images.githubusercontent.com/111409181/211257976-6a948c92-f805-4bf4-bd7c-251585283744.png)
 
-This was the T-test for all manufacturing lots against the population mean. I will assume that our significance level is at 0.05 percent. Our p-value ended up being 0.060 which is slightly above the assumed significance level. With this result, we do not have enough evidence to reject the hypothesis. So the PSI in all manufacturing lots is similar to the population mean of 1498.78 psi.
+This was the T-test for all manufacturing lots against the population mean. I will assume that our significance level is at 0.05 percent. Our p-value ended up being 0.060 which is slightly above the assumed significance level. With this result, we do not have enough evidence to reject the null hypothesis. So the PSI in all manufacturing lots is similar to the population mean of 1498.78 psi.
 
 Lot 1 and Lot 2
 
@@ -53,7 +53,13 @@ Lot 3
 
 ![image](https://user-images.githubusercontent.com/111409181/211275484-901c9617-fb4b-47d3-809b-bcda4629c928.png)
 
+For Lot 3 the p-value ended up being 0.041 which endsup being lower than 0.05 which is not sufficent to reject the null hypothesis. 
+Luckily the manufacturing PSI is similar to the population mean of 1500 coming up with 1496.14
 
+## Study Design: MechaCar vs Competition
+
+Some study designs that we can use to compare MechaCar protypes with our Competitions could be. 1. how fast can each go from 0-60 mph. 2. mpg on the higway. 3. Safety. 4.How much tech is in the cars. 5. warranty/trade-in value. 
+For our case the null hypothesis would be: each performance metric is statistically similar between the MechaCar prototype and vehicles from other manufacturers/competitors. To compare these staticstics we would create and use a ANOVA test to compare the MechaCar prototype (the independent variable) with the competitors (dependent variables). We can create the comparison by collecting data from competitors such as Honda, Chevy, Toyota, etc. and create a dataframe to comapre it with MechaCar. 
 
 
 
